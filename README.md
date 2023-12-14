@@ -1,7 +1,9 @@
 ## Christopher Crevling - Code Test
 
 Here is the as is state of the code test.
+
 *Final notes for consideration:*
+
 Build out a class and subclass structure for the Flights & service architechture that would have allowed for each flight to be its own class (model) with operations prototyped within that. Each flight would have its own calculators and the primary flights serivce would have allowed for driving into each flight object as it was applied from the primary Flight model. This would allow for proper grouping, handling and overall organization of each resulting flight after it was pulled from the primary requestor
 
 Next steps would have been to build out a model for each Flight that would be provided with (constructor) the Flight result data as the primary Flights service handled the call and request. The model would have the calculation agents applied within the scope of the class in order to allow for the Flight itself to run its own scores on construct as it builds out its object
